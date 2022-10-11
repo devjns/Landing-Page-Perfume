@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,800;9..144,900&display=swap');
+
+:root {
+    --font1: 'Montserrat', 'sans-serif';
+    --font2: 'Fraunces', 'serif';
+}
+
+body {
+    background-color: rgb(243, 234, 227);
+}
+
+div#bloco {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div#texto {
+   background-color: white;
+   height: 400px;
+   width: 267px;
+   padding-left: 10px;
+   align-content: center;
+}
+
+div#texto > p {
+    font-family: var(--font1);
+    font-size: 14px;
+}
+
+div#texto > #p1 {
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+p#price1 {
+    color: rgb(61, 129, 104);
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+
+span {
+    font-family: var(--font1);
+    font-size: 14px;
+    color: rgb(143, 142, 148);
+    text-decoration: line-through;
+    
+}
+
+button {
+    background-color: rgb(61, 129, 104);
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: rgb(10, 93, 62);
+}
+
+@media screen and (max-width: 670px) {
+    div#bloco {
+        width: 100vw;
+        height: 100vh;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+    
